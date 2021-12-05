@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BSRC Handicap Calculator</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="calculate_text">Calculate</string>
+
+    <string name="bsrc_welcome_text">BRSC handicap Calculator</string>
+    <string name="score_hint_text">e.g. 95</string>
+    <string name="average_hint_text">e.g. 94</string>
+    <string name="score_text_field">Score:</string>
+    <string name="average_text_field">Handicap:</string>
+    <string name="handicap_result_text">Handicap:\n</string>
+</resources>
