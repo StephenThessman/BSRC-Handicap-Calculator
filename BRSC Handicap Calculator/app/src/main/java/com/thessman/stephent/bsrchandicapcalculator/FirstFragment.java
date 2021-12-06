@@ -29,7 +29,7 @@ public class FirstFragment extends Fragment {
         // Inflate the layout for this fragment
         View fragmentFirstLayout = inflater.inflate(R.layout.fragment_first, container, false);
         scoreValue = fragmentFirstLayout.findViewById(R.id.score_input);
-        averageValue = fragmentFirstLayout.findViewById(R.id.handicap_input);
+        averageValue = fragmentFirstLayout.findViewById(R.id.average_input);
         getHandicapData();
 
         return fragmentFirstLayout;
