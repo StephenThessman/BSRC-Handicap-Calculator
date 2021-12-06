@@ -64,7 +64,7 @@ public class FirstFragment extends Fragment {
                 if(getHandicapValue(score, average) == -1){
                     value = "Score out of range. Sorry";
                 } else if (getHandicapValue(score, average) == -2){
-                    value = "Handicap out of range. Sorry";
+                    value = "Average out of range. Sorry";
                 } else {
 
                     StringBuilder displayText = new StringBuilder("" + getHandicapValue(score, average));
