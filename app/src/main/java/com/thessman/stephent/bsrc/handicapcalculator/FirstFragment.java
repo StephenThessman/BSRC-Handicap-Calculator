@@ -1,4 +1,4 @@
-package com.thessman.stephent.bsrchandicapcalculator;
+package com.thessman.stephent.bsrc.handicapcalculator;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+
+import com.thessman.stephent.bsrchandicapcalculator.R;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -62,9 +64,9 @@ public class FirstFragment extends Fragment {
                 TextView handicap = view.getRootView().findViewById(R.id.handicap_result);
                 String value = "Handicap:\n";
                 if(getHandicapValue(score, average) == -1){
-                    value = "Score out of range. Sorry";
+                    value = "Score out of range.";
                 } else if (getHandicapValue(score, average) == -2){
-                    value = "Average out of range. Sorry";
+                    value = "Handicap out of range.";
                 } else {
 
                     StringBuilder displayText = new StringBuilder("" + getHandicapValue(score, average));
