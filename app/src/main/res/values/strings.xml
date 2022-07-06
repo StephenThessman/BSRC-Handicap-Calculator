@@ -10,5 +10,5 @@
     <string name="average_hint_text">e.g. 94</string>
     <string name="score_text_field">Score:</string>
     <string name="average_text_field">Handicap:</string>
-    <string name="handicap_result_text">Result:\n</string>
+    <string name="handicap_result_text">Result: \n </string>
 </resources>
