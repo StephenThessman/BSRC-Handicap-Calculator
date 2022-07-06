@@ -12,9 +12,9 @@
       "filters": [],
       "properties": [],
       "versionCode": 3,
-      "versionName": "1.2",
+      "versionName": "1.1",
       "enabled": true,
-      "outputFile": "app-release.apk"
+      "outputFile": "BSRC-Handicap-Calculator-v1.1-release.apk"
     }
   ]
 }
